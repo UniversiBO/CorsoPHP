@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./src/Universibo/CorsoPHP/Es01/Tests/bootstrap.php" colors="true">
+
+    <testsuites>
+        <testsuite name="Test suite">
+            <directory suffix="Test.php">./src/Universibo/CorsoPHP/Es01/Tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>./</directory>
+            <exclude>
+                <directory>./Resources</directory>
+                <directory>./Tests</directory>
+                <directory>./vendor</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
+
+
+
