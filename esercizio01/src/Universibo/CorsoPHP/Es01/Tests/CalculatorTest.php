@@ -2,6 +2,7 @@
 namespace Universibo\CorsoPHP\Es01\Tests;
 
 use PHPUnit_Framework_TestCase;
+use Universibo\CorsoPHP\Es01\Calculator;
 
 class CalculatorTest extends PHPUnit_Framework_TestCase
 {
@@ -9,7 +10,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->calculator = new \Universibo\CorsoPHP\Es01\Calculator();
+        $this->calculator = new Calculator();
     }
 
     public function testSumSimple()
